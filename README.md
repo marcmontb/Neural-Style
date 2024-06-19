@@ -1,6 +1,6 @@
 # Neural-Style
 
-This notebook details the implementation of the Neural-Style algorithm created by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. Neural-Style, also known as Neural-Transfer, enables the transformation of an image by applying a new artistic style to it. The algorithm utilizes three images: an input image, a content image, and a style image. It modifies the input image to reflect the content of the content image and the artistic style of the style image.
+This notebook details the implementation of the [Neural-Style algorithm](https://arxiv.org/abs/1508.06576) created by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. Neural-Style, also known as Neural-Transfer, enables the transformation of an image by applying a new artistic style to it. The algorithm utilizes three images: an input image, a content image, and a style image. It modifies the input image to reflect the content of the content image and the artistic style of the style image.
 
 **Underlying Principle**
 
