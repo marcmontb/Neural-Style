@@ -1,7 +1,8 @@
 # Neural-Style
 
-This notebook details the implementation of the [Neural-Style algorithm](https://arxiv.org/abs/1508.06576) created by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. Neural-Style, also known as Neural-Transfer, enables the transformation of an image by applying a new artistic style to it. The algorithm utilizes three images: an input image, a content image, and a style image. It modifies the input image to reflect the content of the content image and the artistic style of the style image.
+This notebook provides a comprehensive guide to implementing the [Neural-Style algorithm](https://arxiv.org/abs/1508.06576) developed by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge. Known as Neural-Transfer or Neural-Style, this technique allows you to transform an image by infusing it with a new artistic style. The process involves three images: an input image, a content image, and a style image. The algorithm alters the input image to mirror the content of the content image while adopting the artistic style of the style image.
 
-**Underlying Principle**
+**Core Concept**
 
-The underlying principle is straightforward: we define two distances—one for content (D<sub>C</sub>) and one for style (D<sub>S</sub>). (D<sub>C</sub>) measures the difference in content between two images, while (D<sub>S</sub>) measures the difference in style between two images. The algorithm then takes a third image, the input, and transforms it to minimize both its content-distance to the content image and its style-distance to the style image.
+The core concept is simple: we establish two metrics—one for content (D<sub>C</sub>) and one for style (D<sub>S</sub>). The content distance (D<sub>C</sub>) quantifies how different the content is between two images, and the style distance (D<sub>S</sub>) assesses how different the styles are. The algorithm processes a third image, the input, and adjusts it to minimize both the content distance from the content image and the style distance from the style image.
+
