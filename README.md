@@ -4,4 +4,4 @@ This notebook details the implementation of the Neural-Style algorithm created b
 
 **Underlying Principle**
 
-The underlying principle is straightforward: we define two distances—one for content (\(D_C\)) and one for style (\(D_S\)). \(D_C\) measures the difference in content between two images, while \(D_S\) measures the difference in style between two images. The algorithm then takes a third image, the input, and transforms it to minimize both its content-distance to the content image and its style-distance to the style image. 
+The underlying principle is straightforward: we define two distances—one for content (D_C) and one for style (D_S). D_C measures the difference in content between two images, while D_S measures the difference in style between two images. The algorithm then takes a third image, the input, and transforms it to minimize both its content-distance to the content image and its style-distance to the style image.
